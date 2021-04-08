@@ -1,3 +1,53 @@
 /*
     Este arquivo será utilizado, tanto para os exemplos, quanto para o exercício TERRA SUA LINDA.
 */
+
+/*
+    Utilizando o elemento DIV como seletor
+*/
+
+div {
+    margin: 20%;
+}
+
+/*
+    Utilizando o ID como seletor.
+    Utilize o ( # ) seguido do nome deste seletor.
+    Ex: #container{ ... }
+*/
+
+#container {
+    /*
+    Formato de adição de valores direto.
+    Da esaquerda para a direita / sentido horário.
+    A sequencia é:
+    TOP / RIGHT / BOTTOM / LEFT
+    Ex: margin: 0px 20px 0px 20px;
+
+    Formato Fast Hand:
+    margin: 0% 20%
+    Onde os valores iniciais são respectivamente:
+    TOP / BOTTOM e RIGHT / LEFT.
+    */
+    margin: 0% 20%;
+
+}
+
+
+/*
+    Utilizando como seletor o CLASS.
+    Utilize o ( . ) seguido do nome do seletor.
+    Ex: .text-format{ ... }
+*/
+
+.text-format {
+    color: #a52a2a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.small-text {
+    font-size: 20px;
+    background-color: #ddd9c8;
+}
